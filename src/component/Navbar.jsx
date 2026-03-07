@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from "react";
 import { FaSearch, FaBell, FaBars } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [time, setTime] = useState(new Date());
@@ -68,7 +69,7 @@ export default function Navbar() {
                             {/* Desktop Menu (Hidden on Mobile) */}
                             <div className="d-none d-xl-flex align-items-center gap-4 ">
                               <div className="d-flex align-items-center gap-3 ">
-                                <a href="/" className="nav-link hover-blue ">Home</a>
+                                <Link to="/" className="nav-link hover-blue ">Home</Link>
                                 <a href="/About" className="nav-link hover-blue">About Us</a>
                                 <a href="/Education" className="nav-link hover-blue">Education</a>
                                 <a href="/Gallery" className="nav-link hover-blue">Gallery</a>
