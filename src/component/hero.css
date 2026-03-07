@@ -1,0 +1,8 @@
+/* position-absolute top-50 start-50 translate-middle rounded-circle
+filter: blur(6rem) */
+
+/* Smooth fade when images change */
+img {
+  transition: opacity 0.5s ease-in-out;
+  object-fit: cover;
+}
