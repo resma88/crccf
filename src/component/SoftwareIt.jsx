@@ -7,13 +7,13 @@ export default function SoftwareIt() {
       id: 1,
       title: "Software Services Introduction",
       image: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765874121/Software_services_introduction_pg1ubn_x4i7oq.jpg",
-      link: "/SoftwareIt_Intro",
+      link: "/SoftwareItIntro",
     },
     {
       id: 2,
       title: "AMC Services (Annual Maintenance for Website, App & Software)",
       image: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765874094/AMC_serices_ccgzxj_mplbp0.jpg",
-      link: "/SoftwareIt_Intro",
+      link: "/SoftwareItIntro",
     },
     {
       id: 3,

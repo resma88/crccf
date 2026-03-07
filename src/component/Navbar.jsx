@@ -73,9 +73,9 @@ export default function Navbar() {
                                 <a href="/Education" className="nav-link hover-blue">Education</a>
                                 <a href="/Gallery" className="nav-link hover-blue">Gallery</a>
                                 <a href="/ItService" className="nav-link hover-blue">IT Service</a>
-                                <a href="#resource" className="nav-link hover-blue">Resource</a>
-                                <a href="#recruitment" className="nav-link hover-blue">Recruitment</a>
-                                <a href="#contact" className="nav-link hover-blue">Contact</a>
+                                <a href="/" className="nav-link hover-blue">Resource</a>
+                                <a href="/" className="nav-link hover-blue">Recruitment</a>
+                                <a href="/" className="nav-link hover-blue">Contact</a>
                               </div>
                       
                               <div className="d-flex align-items-center gap-2 ps-4 border-start">
@@ -121,9 +121,9 @@ export default function Navbar() {
     <a href="/Education" className="d-block">Education</a>
     <a href="/Gallery" className="d-block">Gallery</a>
     <a href="/ItService" className="d-block">IT Service</a>
-    <a href="#resource" className="d-block">Resource</a>
-    <a href="#recruitment" className="d-block">Recruitment</a>
-    <a href="#contact" className="d-block">Contact</a>
+    <a href="/" className="d-block">Resource</a>
+    <a href="/" className="d-block">Recruitment</a>
+    <a href="/" className="d-block">Contact</a>
     <button className="btn btn-primary mt-2">Report Crime</button>
   </div>
 )}

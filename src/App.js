@@ -10,7 +10,6 @@ import Herosection from './component/Herosection';
 import Footer from './component/Footer';
 import Service from './component/Service';
 import SoftwareIt from "./component/SoftwareIt";
-import SoftwareIt_Intro from './component/SoftwareIt_Intro';
 import CustomCard from './component/CustomCard';
 import MobileAppDev from './component/MobileAppDev';
 import DesktopSolution from './component/DesktopSolution';
@@ -20,6 +19,7 @@ import About from './component/About';
 import Education from './component/Education';
 import Gallery from './component/Gallery';
 import ITService from './component/ItService';
+import SoftwareItIntro from './component/SoftwareItIntro';
 
   function App() {
      const cardsData = [
@@ -195,8 +195,7 @@ import ITService from './component/ItService';
 
            {/* Service Detail Pages */}
         <Route path="/SoftwareIt" element={<SoftwareIt />} />
-        <Route path="/SoftwareIt_Intro" element={<SoftwareIt_Intro />} />
-        <Route path="/SoftwareIt_Intro" element={<SoftwareIt_Intro />} />
+        <Route path="/SoftwareItIntro" element={<SoftwareItIntro />} />
         <Route path="/CustomCard" element={<CustomCard />} />
         <Route path="/MobileAppDev" element={<MobileAppDev />} />
         <Route path="/DesktopSolution" element={<DesktopSolution />} />

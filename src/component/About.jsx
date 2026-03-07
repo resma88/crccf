@@ -1,32 +1,21 @@
-import React, { useState } from "react";
+// src/component/About.jsx
+import React from "react";
 import "../App.css";
 import { aboutSections } from "../data/AboutData";
 
-const About = () => {
-  // PAGINATION LOGIC
-  const sectionsPerPage = 3;
-  const [currentPage, setCurrentPage] = useState(1);
-
-  const indexOfLast = currentPage * sectionsPerPage;
-  const indexOfFirst = indexOfLast - sectionsPerPage;
-
-  const currentSections = aboutSections.slice(indexOfFirst, indexOfLast);
-
-  const totalPages = Math.ceil(aboutSections.length / sectionsPerPage);
-
+const About = (props) => {
   return (
     <main className="flex-grow-1 position-relative custom-pt">
       <div>
         <section className="position-relative container px-4 px-sm-5 px-md-5 py-4 py-sm-5 py-md-5 py-lg-5">
-         <h1 className="display-6 fw-bold text-center text-dark mb-5">
+          <h1 className="display-6 fw-bold text-center text-dark mb-5">
             About Us
           </h1>
 
-
           {/* CONTENT SECTIONS */}
           <div className="mt-4">
-            {currentSections.map((section, index) => {
-              const imageRight = index % 2 !== 0;
+            {aboutSections.map((section) => {
+              const imageRight = section.id % 2 !== 0; // alternate layout
 
               return (
                 <section key={section.id} className="section-custom">
@@ -34,7 +23,7 @@ const About = () => {
                     {/* IMAGE LEFT */}
                     {!imageRight && (
                       <div className="col border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                        <img src={section.image} alt="" className="img-fluid" />
+                        <img src={section.image} alt={section.title} className="img-fluid" />
                       </div>
                     )}
 
@@ -43,26 +32,22 @@ const About = () => {
                       <h2 className="fw-bold text-dark fs-5 fs-sm-4 fs-md-3">
                         {section.title}
                       </h2>
-
                       <div className="mt-3 d-flex flex-column gap-3">
-                         <p className="text-secondary lh-lg">{section.paragraphs}</p>
+                        <p className="text-secondary lh-lg">{section.paragraphs}</p>
                       </div>
                     </div>
 
                     {/* IMAGE RIGHT */}
                     {imageRight && (
                       <div className="col border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                        <img src={section.image} alt="" className="img-fluid" />
+                        <img src={section.image} alt={section.title} className="img-fluid" />
                       </div>
                     )}
                   </div>
-        
                 </section>
               );
             })}
           </div>
-
-        
         </section>
       </div>
     </main>

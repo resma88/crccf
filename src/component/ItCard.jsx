@@ -27,7 +27,7 @@ export default function ItCard({ title, description, linkText, svgPath }) {
       </div>
 
       {/* Link */}
-      <a href="#" className="mt-3 text-primary fw-medium text-decoration-none">
+      <a href="/learn" className="mt-3 text-primary fw-medium text-decoration-none">
         {linkText}
       </a>
     </div>

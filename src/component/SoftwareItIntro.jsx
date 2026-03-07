@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "../App.css";
 
-export default function SoftwareIt_Intro() {
+export default function SoftwareItIntro() {
   
        const [currentPage, setCurrentPage] = useState(0);
       

@@ -15,7 +15,7 @@ export default function Service() {
       id: 2,
       title: "Digital Marketing and Service",
       image: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765873547/Digital_Marketing_pl1swu_obovwy.jpg",
-      link: "/SoftwareIt_Intro",
+      link: "/SoftwareItIntro",
     },
     {
       id: 3,
