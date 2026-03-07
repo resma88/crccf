@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resma88/crccf.git/static/css/main.413ec8dc.css",
+    "main.js": "/resma88/crccf.git/static/js/main.92528233.js",
+    "index.html": "/resma88/crccf.git/index.html",
+    "main.413ec8dc.css.map": "/resma88/crccf.git/static/css/main.413ec8dc.css.map",
+    "main.92528233.js.map": "/resma88/crccf.git/static/js/main.92528233.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.413ec8dc.css",
+    "static/js/main.92528233.js"
+  ]
+}
