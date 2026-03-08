@@ -125,11 +125,12 @@ import SoftwareItIntro from './component/SoftwareItIntro';
 
    return (
      <>
+       <Router>
        <Navbar />
        
        <div className=""></div>
        
-       <Router>
+       
          <Routes>
            <Route
              path="/"
@@ -187,13 +188,13 @@ import SoftwareItIntro from './component/SoftwareItIntro';
                </>
              }
            />
+            
 
-           <Route path="/Introduction" element={<Intro />} />
-           <Route path="/Service" element={<Service />} />
-           <Route path="*" element={<Navigate to="/" />} />
-           <Route path="/Activity" element={<Activity />} />
+                 <Route path="/Introduction" element={<Intro />} />
+        <Route path="/Service" element={<Service />} />
+        <Route path="/Activity" element={<Activity />} />
 
-           {/* Service Detail Pages */}
+        {/* Service Detail Pages */}
         <Route path="/SoftwareIt" element={<SoftwareIt />} />
         <Route path="/SoftwareItIntro" element={<SoftwareItIntro />} />
         <Route path="/CustomCard" element={<CustomCard />} />
@@ -205,11 +206,14 @@ import SoftwareItIntro from './component/SoftwareItIntro';
         <Route path="/Education" element={<Education />} />
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/ItService" element={<ITService />} />
+
+        <Route path="*" element={<Navigate to="/" />} />
          </Routes>
-       </Router>
+       
        <div className="my-5"></div>
        {/* footer */}
          <Footer/>
+         </Router>
      </>
    );
    }
