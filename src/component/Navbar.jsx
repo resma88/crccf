@@ -1,7 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from "react";
 import { FaSearch, FaBell, FaBars } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [time, setTime] = useState(new Date());
@@ -69,14 +68,14 @@ export default function Navbar() {
                             {/* Desktop Menu (Hidden on Mobile) */}
                             <div className="d-none d-xl-flex align-items-center gap-4 ">
                               <div className="d-flex align-items-center gap-3 ">
-                                <Link to="/" className="nav-link hover-blue ">Home</Link>
-                                <Link to="/About" className="nav-link hover-blue">About Us</Link>
-                                <Link to="/Education" className="nav-link hover-blue">Education</Link>
-                                <Link to="/Gallery" className="nav-link hover-blue">Gallery</Link>
-                                <Link to="/ItService" className="nav-link hover-blue">IT Service</Link>
-                                <Link to="/" className="nav-link hover-blue">Resource</Link>
-                                <Link to="/" className="nav-link hover-blue">Recruitment</Link>
-                                <Link to="/" className="nav-link hover-blue">Contact</Link>
+                                <a href="/" className="nav-link hover-blue ">Home</a>
+                                <a href="/About" className="nav-link hover-blue">About Us</a>
+                                <a href="/Education" className="nav-link hover-blue">Education</a>
+                                <a href="/Gallery" className="nav-link hover-blue">Gallery</a>
+                                <a href="/ItService" className="nav-link hover-blue">IT Service</a>
+                                <a href="/" className="nav-link hover-blue">Resource</a>
+                                <a href="/" className="nav-link hover-blue">Recruitment</a>
+                                <a href="/" className="nav-link hover-blue">Contact</a>
                               </div>
                       
                               <div className="d-flex align-items-center gap-2 ps-4 border-start">
@@ -117,14 +116,14 @@ export default function Navbar() {
                            
                             {menuOpen && (
   <div className={`mobile-menu ${menuOpen ? "show" : ""} d-xl-none`}>
-    <Link to="/" className="d-block">Home</Link>
-    <Link to="/About" className="d-block">About Us</Link>
-    <Link to="/Education" className="d-block">Education</Link>
-    <Link to="/Gallery" className="d-block">Gallery</Link>
-    <Link to="/ItService" className="d-block">IT Service</Link>
-    <Link to="/" className="d-block">Resource</Link>
-    <Link to="/" className="d-block">Recruitment</Link>
-    <Link to="/" className="d-block">Contact</Link>
+    <a href="/" className="d-block">Home</a>
+    <a href="/About" className="d-block">About Us</a>
+    <a href="/Education" className="d-block">Education</a>
+    <a href="/Gallery" className="d-block">Gallery</a>
+    <a href="/ItService" className="d-block">IT Service</a>
+    <a href="/" className="d-block">Resource</a>
+    <a href="/" className="d-block">Recruitment</a>
+    <a href="/" className="d-block">Contact</a>
     <button className="btn btn-primary mt-2">Report Crime</button>
   </div>
 )}

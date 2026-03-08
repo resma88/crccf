@@ -11,7 +11,7 @@ const AiSolution = () => {
     <section key={0}>
              <div className="row row-cols-1 row-cols-md-2 g-3 g-sm-4 g-md-5 align-items-md-stretch">
                  <div className="col border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                     <img src="" alt="image 1" className="img-fluid" />
+                     <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                  </div>
                  <div className="col order-md-2 py-2 text-truncate">
                      <h2 className="fw-bold text-dark fs-5 fs-sm-4 fs-md-3 lh-sm lh-md">
@@ -75,14 +75,14 @@ const AiSolution = () => {
                     </div>
                 </div>
                 <div className="col order-md-2 py-2 border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 2" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
             </div>
         </section>,
         <section key={2}>
             <div className="row row-cols-1 row-cols-md-2 g-3 g-sm-4 g-md-5 align-items-md-stretch">
                 <div className="col border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 3" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
                 <div className="col order-md-2 py-2 text-truncate">
                     <h2 className="fw-bold text-dark fs-5 fs-sm-4 fs-md-3 lh-sm lh-md">
@@ -145,14 +145,14 @@ const AiSolution = () => {
                     </div>
                 </div>
                 <div className="col order-md-2 py-2 border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 4" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
             </div>
         </section>,
         <section key={4}>
             <div className="row row-cols-1 row-cols-md-2 g-3 g-sm-4 g-md-5 align-items-md-stretch">
                 <div className="col border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 5" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
                 <div className="col order-md-2 py-2 text-truncate">
                     <h2 className="fw-bold text-dark fs-5 fs-sm-4 fs-md-3 lh-sm lh-md">
@@ -215,14 +215,14 @@ const AiSolution = () => {
                     </div>
                 </div>
                 <div className="col order-md-2 py-2 border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 4" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
             </div>
         </section>,
         <section key={6}>
             <div className="row row-cols-1 row-cols-md-2 g-3 g-sm-4 g-md-5 align-items-md-stretch">
                 <div className="col border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 5" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
                 <div className="col order-md-2 py-2 text-truncate">
                     <h2 className="fw-bold text-dark fs-5 fs-sm-4 fs-md-3 lh-sm lh-md">
@@ -254,7 +254,7 @@ const AiSolution = () => {
                 </div>
             </div>
         </section>, 
-        <section key={3}>
+        <section key={7}>
             <div className="row row-cols-1 row-cols-md-2 g-3 g-sm-4 g-md-5 align-items-md-stretch">
                 <div className="col text-truncate">
                     <h2 className="fw-bold text-dark fs-5 fs-sm-4 fs-md-3 lh-sm lh-md">
@@ -285,14 +285,14 @@ const AiSolution = () => {
                     </div>
                 </div>
                 <div className="col order-md-2 py-2 border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 4" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
             </div>
         </section>,
-        <section key={2}>
+        <section key={8}>
             <div className="row row-cols-1 row-cols-md-2 g-3 g-sm-4 g-md-5 align-items-md-stretch">
                 <div className="col border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 5" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
                 <div className="col order-md-2 py-2 text-truncate">
                     <h2 className="fw-bold text-dark fs-5 fs-sm-4 fs-md-3 lh-sm lh-md">
@@ -324,7 +324,7 @@ const AiSolution = () => {
                 </div>
             </div>
         </section>, 
-        <section key={3}>
+        <section key={9}>
             <div className="row row-cols-1 row-cols-md-2 g-3 g-sm-4 g-md-5 align-items-md-stretch">
                 <div className="col text-truncate">
                     <h2 className="fw-bold text-dark fs-5 fs-sm-4 fs-md-3 lh-sm lh-md">
@@ -355,14 +355,14 @@ const AiSolution = () => {
                     </div>
                 </div>
                 <div className="col order-md-2 py-2 border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 4" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
             </div>
         </section>,
-        <section key={2}>
+        <section key={10}>
             <div className="row row-cols-1 row-cols-md-2 g-3 g-sm-4 g-md-5 align-items-md-stretch">
                 <div className="col border border-secondary rounded p-2 d-flex justify-content-center align-items-center">
-                    <img src="" alt="image 5" className="img-fluid" />
+                    <img src="https://via.placeholder.com/400x250" alt="" className="img-fluid" />
                 </div>
                 <div className="col order-md-2 py-2 text-truncate">
                     <h2 className="fw-bold text-dark fs-5 fs-sm-4 fs-md-3 lh-sm lh-md">
