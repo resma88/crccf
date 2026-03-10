@@ -1,0 +1,14 @@
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Shapes */
+.card-square { border-radius: 0; height: 350px; }
+.card-small-square { border-radius: 0; height: 250px; }
+.card-lean-right { border-radius: 0; height: 350px; transform: rotate(5deg); }
+.card-rounded { border-radius: 30px; height: 350px; }

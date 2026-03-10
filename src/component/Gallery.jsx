@@ -38,7 +38,7 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="container py-5">
+    <div className="container-fluid px-4 py-5">
           
            <div>
               <h1 className="fw-bold  display-4 text-dark  text-center lh-1 custom-heading">

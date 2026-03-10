@@ -1,0 +1,21 @@
+.custom-card {
+  cursor: pointer;
+  transform: scale(1);
+}
+.custom-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2), transparent);
+  pointer-events: none;
+}
+
+/* Two-line clamp for description */
+.text-truncate-two-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

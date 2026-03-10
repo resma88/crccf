@@ -64,7 +64,7 @@ export default function Herosection() {
             "linear-gradient(to bottom right, #f8fafc, rgba(219,234,254,0.5))",
         }}
       >
-        <div className="container px-4 px-sm-5 px-lg-5">
+        <div className="container-fluid px-4 px-sm-5 px-lg-5">
           <div className="row align-items-stretch g-4 g-lg-5">
             {/* Left Content */}
             <div className="col-lg-6 text-center text-lg-start order-1 mt-4 mt-lg-4 position-relative">
@@ -106,7 +106,7 @@ export default function Herosection() {
               <div
                 className="position-absolute top-50 start-50 translate-middle rounded-circle"
                 style={{
-                  width: "140%",
+                  width: "100%",
                   height: "140%",
                   backgroundColor: "rgba(191, 219, 254, 0.5)",
                   filter: "blur(6rem)",

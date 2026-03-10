@@ -91,13 +91,13 @@ export default function Navbar() {
                 <Link to="/ItService" className="nav-link hover-blue">
                   IT Service
                 </Link>
-                <Link to="/" className="nav-link hover-blue">
+                <Link to="/Resource" className="nav-link hover-blue">
                   Resource
                 </Link>
-                <Link to="/" className="nav-link hover-blue">
+                <Link to="/Recruitment" className="nav-link hover-blue">
                   Recruitment
                 </Link>
-                <Link to="/" className="nav-link hover-blue">
+                <Link to="/Contact" className="nav-link hover-blue">
                   Contact
                 </Link>
               </div>
@@ -154,13 +154,13 @@ export default function Navbar() {
                 <Link to="/ItService" className="d-block">
                   IT Service
                 </Link>
-                <Link to="/" className="d-block">
+                <Link to="/Resource" className="d-block">
                   Resource
                 </Link>
-                <Link to="/" className="d-block">
+                <Link to="/Recruitment" className="d-block">
                   Recruitment
                 </Link>
-                <Link to="/" className="d-block">
+                <Link to="/Contact" className="d-block">
                   Contact
                 </Link>
                 <button className="btn btn-primary mt-2">

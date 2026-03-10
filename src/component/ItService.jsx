@@ -29,7 +29,7 @@ export default function ItService() {
   ];
 
   return (
-    <div className="mt-3">
+    <div className="mt-3 px-5">
         <h1 className="display-8 fw-bold text-center text-dark mb-5">
             Our Software Services
           </h1>

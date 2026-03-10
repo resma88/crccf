@@ -20,6 +20,12 @@ import Education from './component/Education';
 import Gallery from './component/Gallery';
 import ITService from './component/ItService';
 import SoftwareItIntro from './component/SoftwareItIntro';
+import Resource from './component/Resource';
+import Recruitment from './component/Recruitment';
+import Contact from './component/Contact';
+import JobVacancy from './component/JobVacancy';
+import ApplyPage from './component/ApplyPage';
+import ApplicationForm from './component/ApplicationForm';
 
   function App() {
      const cardsData = [
@@ -51,75 +57,79 @@ import SoftwareItIntro from './component/SoftwareItIntro';
      { title: "Our Objectives", 
               imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870561/Objectives_of_CRCCF_vxwlpl_btdszo.avif", 
               description: "Learn more about who we are and what we do.", 
-              link: "/about", }, 
+              link: "/", }, 
 
      { title: "Our Achievements", 
            imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870562/Our_Achievements_gc1y1d_d6wbu9.avif", 
-                description: "Learn more about who we are and what we do.", link: "/about", }, 
+            description: "Learn more about who we are and what we do.", 
+            link: "/", }, 
       { title: "Legal and Compliance", 
-          imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870563/Our_Departments_at8ifr_zreia8.avif", description: "Learn more about who we are and what we do.", link: "/about", }, 
+          imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870563/Our_Departments_at8ifr_zreia8.avif", 
+          description: "Learn more about who we are and what we do.", 
+          link: "/", }, 
       { title: "Our Departments", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870563/Our_Departments_at8ifr_zreia8.avif", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870563/Our_Departments_at8ifr_zreia8.avif", 
+         description: "Learn more about who we are and what we do.", link: "/", }, 
       { title: "Privacy Policy", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870567/Privacy_Policy_ksttiy_xj9tae.avif", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870567/Privacy_Policy_ksttiy_xj9tae.avif", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Data Protection Policy", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/Data_Protection_Policy_dtzoon_xywpnt.avif", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/Data_Protection_Policy_dtzoon_xywpnt.avif", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "GDPR Compliance ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/GDPR_Compliance_lcxptc_uzyan6.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/GDPR_Compliance_lcxptc_uzyan6.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our Terms and Conditions ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870570/Terms_and_Conditions_of_CRCCF_dwyjep_c3i5do.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870570/Terms_and_Conditions_of_CRCCF_dwyjep_c3i5do.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our Rules and Regulations ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870569/Rules_and_Regulations_of_CRCCF_cetbl0_nzwmex.avif", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870569/Rules_and_Regulations_of_CRCCF_cetbl0_nzwmex.avif", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our Guidelines ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Guidelines_of_CRCCF_t0g9mj_j1zvci.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Guidelines_of_CRCCF_t0g9mj_j1zvci.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our Instructions ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Instructions_eassak_ao5jjc.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Instructions_eassak_ao5jjc.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our Story ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870564/Our_Story_d5pdim_iyiylc.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870564/Our_Story_d5pdim_iyiylc.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our History ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870564/Our_History_jybssn_t9n7fn.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870564/Our_History_jybssn_t9n7fn.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our Team ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870566/Our_Team_jmcn2z_b2nwia.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870566/Our_Team_jmcn2z_b2nwia.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our Success Case Stories ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870565/Our_Success_Case_Stories_wjeafa_yelwlr.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870565/Our_Success_Case_Stories_wjeafa_yelwlr.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: " Case Studies", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/Case_Studies_cpl7ic_x4bqw4.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/Case_Studies_cpl7ic_x4bqw4.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "News and Events ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870561/News_and_Events_jcw2lo_ernmrk.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870561/News_and_Events_jcw2lo_ernmrk.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Legal Disclaimer of CRCCF ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870558/Legal_Disclaimer_of_CRCCF_o6z9hc_xh4ixo.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870558/Legal_Disclaimer_of_CRCCF_o6z9hc_xh4ixo.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Copyright Registration of CRCCF ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Copyright_Registration_of_CRCCF_hrok0i_iwe6o3.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Copyright_Registration_of_CRCCF_hrok0i_iwe6o3.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Partnerships and Collaborations ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870566/Partnerships_and_Collaborations_dreuih_g6dju3.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870566/Partnerships_and_Collaborations_dreuih_g6dju3.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Legal Support ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870558/Legal_Support_glzjy7_s9ntpw.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870558/Legal_Support_glzjy7_s9ntpw.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our Client ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870562/Our_Clients_odhbjk_jupdlp.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870562/Our_Clients_odhbjk_jupdlp.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "IT Support ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870558/IT_SUPPOT_qf4jiu_vnanlz.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870558/IT_SUPPOT_qf4jiu_vnanlz.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Our Students ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870564/Our_Students_irbtwb_jp9sjf.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870564/Our_Students_irbtwb_jp9sjf.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Cyber Crime Safety Tip ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Cybercrime_Safety_Tips_solb4v_jt8b1n.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Cybercrime_Safety_Tips_solb4v_jt8b1n.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Technical Assistance ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870569/Technical_Assistance_zvefwt_pbtfik.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870569/Technical_Assistance_zvefwt_pbtfik.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Cyber Crime Prevention ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Cybercrime_Prevention_ft8ngk_xc48c8.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Cybercrime_Prevention_ft8ngk_xc48c8.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Innovation and Technology ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Innovation_and_Technology_kjnbmx_s0n1dz.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870557/Innovation_and_Technology_kjnbmx_s0n1dz.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Media and Press Coverage ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870560/Media_and_Press_Coverage_dejezt_qjyr97.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870560/Media_and_Press_Coverage_dejezt_qjyr97.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Future Roadmap ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/Future_Roadmap_aonty2_gwask2.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/Future_Roadmap_aonty2_gwask2.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Membership Opportunities ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870561/Membership_Opportunities_j4gdpe_fwer7h.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870561/Membership_Opportunities_j4gdpe_fwer7h.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Emergency Response Desk ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/Emergency_Response_Desk_eczi9d_1_b64eme.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870556/Emergency_Response_Desk_eczi9d_1_b64eme.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Review ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870568/Reviews_vtyl5e_dujttg.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870568/Reviews_vtyl5e_dujttg.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
       { title: "Testimonials ", 
-         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870570/Testimonials_jydfmn_iulyvs.avif ", description: "Learn more about who we are and what we do.", link: "/about", }, 
+         imgSrc: "https://res.cloudinary.com/drtqqfegh/image/upload/v1765870570/Testimonials_jydfmn_iulyvs.avif ", description: "Learn more about who we are and what we do.", link: "", }, 
               ];
 
 
@@ -138,7 +148,7 @@ import SoftwareItIntro from './component/SoftwareItIntro';
                <>
                 <Herosection />
                <div className="position-relative d-flex flex-grow-1 pt-4 pt-md-5">
-                 <div className="container px-3 px-sm-4 px-lg-5">
+                 <div className="container-fluid px-3 px-sm-4 px-lg-5">
                    <div className="text-center mx-auto mb-5 mb-sm-5">
                      <span className="text-primary fw-bold fs-6 text-uppercase">
                        Our Expertise
@@ -190,7 +200,7 @@ import SoftwareItIntro from './component/SoftwareItIntro';
            />
             
 
-                 <Route path="/Introduction" element={<Intro />} />
+        <Route path="/Introduction" element={<Intro />} />
         <Route path="/Service" element={<Service />} />
         <Route path="/Activity" element={<Activity />} />
 
@@ -206,6 +216,14 @@ import SoftwareItIntro from './component/SoftwareItIntro';
         <Route path="/Education" element={<Education />} />
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/ItService" element={<ITService />} />
+        <Route path="/Resource" element={<Resource />} />
+        <Route path="/Recruitment" element={<Recruitment />} />
+        <Route path="/Contact" element={<Contact />} /> 
+
+
+        <Route path="/JobVacancy" element={<JobVacancy />} />
+        <Route path="/apply/:jobId" element={<ApplyPage />} />
+        <Route path="/ApplicationForm" element={<ApplicationForm/>} />
 
         <Route path="*" element={<Navigate to="/" />} />
          </Routes>

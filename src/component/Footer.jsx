@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className="position-relative overflow-hidden bg-dark text-white border-top py-5">
-         <div className="container">
+         <div className="container-fluid px-5">
            <div className="row g-4">
              {/* Column 1: Logo + Description */}
              <div className="col-12 col-md-6 col-lg-3">
